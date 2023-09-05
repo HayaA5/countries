@@ -7,34 +7,24 @@ img{
     width:50px;
     height:50px;
     border-radius: 50%;
+} 
+li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;  
+}  
+li .flag {
+  width: 50px;
+  height: 50px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 1px solid;
 }
-
-
-
-  
-  li {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-    
-  }
-  
-  li .flag {
-    width: 50px;
-    height: 50px;
-    background-position: center;
-    background-size: cover;
-    border-radius: 50%;
-    margin-right: 10px;
-    border: 1px solid;
-  }
-  
-  li label {
-    color: gray;
-  }
-  li :hover{
-    cursor:pointer;
-  }
-
-  
-  
+li label {
+  color: gray;
+}
+li :hover{
+  cursor:pointer;
+} 

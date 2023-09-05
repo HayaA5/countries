@@ -7,9 +7,7 @@
     animation:rotate1 1s infinite linear;
     height: 50px;
     width: 50px;
-   
 }
-
 .loaderWrapper{
   display:flex;
   justify-content: center;

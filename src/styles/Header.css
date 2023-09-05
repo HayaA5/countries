@@ -1,11 +1,11 @@
-header {
+.header-countries {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* position: fixed; */
-    /* position:fixed;
-    top:0px;
-    overflow: hidden; */
+    margin-bottom: 30px;
+    position: sticky;
+    top:0;
+    padding-top:10px;
   }
   h1 {
     animation-name: spin, depth;

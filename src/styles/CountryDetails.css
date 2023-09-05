@@ -1,26 +1,24 @@
-
 .countryDetails h2 {
     max-width: 150px;
     margin-top: 0;
-  }
-  
+}
   .countryDetails img {
     width: 150px;
     border: 1px solid black;
     border-radius: 10px;
-  }
-
-  .countryDetails li{
-   
-    text-align: center;
-    display: flex;
-    
-  }
-
-
-  .countryDetails span{
-   
-    display: block;
+    margin-top:30px;
+}
+.flagContainer{
   text-align: center;
-    align-items: center;
-  }
+}
+.countryDetails li{
+  display: block;
+  text-align: center;
+  align-items: center; 
+  list-style: none;
+}
+.countryDetails span{
+  display: block;
+  text-align: center;
+  align-items: center;
+}
